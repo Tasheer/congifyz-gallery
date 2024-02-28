@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+
+    <div class="gallery">
+        <img class="thumbnail" src="p1.jpg" alt="Thumbnail 1" onclick="showImage('p1.jpg')">
+        <img class="thumbnail" src="p2.jpg" alt="Thumbnail 2" onclick="showImage('p2.jpg')">
+        <img class="thumbnail" src="p3.jpg" alt="Thumbnail 3" onclick="showImage('p3.jpg')">
+        <img class="thumbnail" src="p4.jpg" alt="Thumbnail 3" onclick="showImage('p4.jpg')">
+        <img class="thumbnail" src="p5.jpg" alt="Thumbnail 3" onclick="showImage('p5.jpg')">
+    </div>
+
+    <div class="enlarged-image-container" onclick="hideImage()">
+        <img class="enlarged-image" id="enlargedImg">
+    </div>
+
+    <div class="slideshow">
+        <div class="slide">
+            <img src="p1.jpg">
+        </div>
+        <div class="slide">
+            <img src="p2.jpg">
+        </div>
+        <div class="slide">
+            <img src="p3.jpg">
+        </div>
+        <div class="slide">
+            <img src="p4.jpg">
+        </div>
+        <div class="slide">
+            <img src="p5.jpg">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
